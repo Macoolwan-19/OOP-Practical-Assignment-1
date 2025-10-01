@@ -42,4 +42,36 @@ displaying a proper message to the user. [15 Marks]
 ---
 
 ## 📂 Project Structure
+📦 OOP-Practical-Assignment-1
+┣  Account.java # Implements Bank methods
+┣  App.java # Extra driver/utility class
+┣  Bank.java # Abstract Bank class
+┣  DivisibleByFive.java # Stream filtering example
+┣  Exception handling.java # Custom exception handling
+┣  test_account.java # Tests deposit, withdraw & balance
+┗  Bank.txt # Transaction logs (generated at runtime)
+
+---
+
+## 🚀 How to Run
+
+1. **Compile all files**  
+   ```bash
+   javac *.java
+Run the programs
+
+Banking system:
+
+java test_account
+
+
+Stream filtering:
+
+java DivisibleByFive
+
+
+Custom exception:
+
+java "Exception handling"
+
 

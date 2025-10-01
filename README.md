@@ -5,8 +5,9 @@ This repository contains solutions for **OOP1 Practical Assignment 1** in Java.
 It demonstrates **abstraction, inheritance, file handling, Java Streams, and custom exception handling**.  
 
 **Authors**:  
-- *Tinashe Tigere*  
-- *Kevin Mutenga*  
+- *Tinashe Tigere* (H240171H)  
+- *Kevin Mutenga* (H240316Y)  
+
 
 **Total Marks:** 50  
 

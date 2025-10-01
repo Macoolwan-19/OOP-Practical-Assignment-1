@@ -60,17 +60,17 @@ displaying a proper message to the user. [15 Marks]
    javac *.java
 Run the programs
 
-Banking system:
+ 1.Banking system:
 
 java test_account
 
 
-Stream filtering:
+2a).Stream filtering:
 
 java DivisibleByFive
 
 
-Custom exception:
+2b).Custom exception:
 
 java "Exception handling"
 

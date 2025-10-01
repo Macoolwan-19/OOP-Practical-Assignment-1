@@ -1,42 +1,44 @@
-# 🧠 Object Oriented Programming 1 – Practical Assignment 1 (Java)
+# 🧠 Object-Oriented Programming 1 – Practical Assignment 1 (Java)
 
 ## 📘 Overview
-This repository contains solutions for the **OOP1 Practical Assignment 1** in Java. It demonstrates core object-oriented principles such as abstraction, inheritance, file handling, stream operations, and custom exception handling.
+This repository contains solutions for **OOP1 Practical Assignment 1** in Java.  
+It demonstrates **abstraction, inheritance, file handling, Java Streams, and custom exception handling**.  
+
+**Authors**:  
+- *Tinashe Tigere*  
+- *Kevin Mutenga*  
+
+**Total Marks:** 50  
 
 ---
 
-## 🧾 Assignment Breakdown
+## 📝 Assignment Questions
 
 ### 🔹 Question 1: Banking System [25 Marks]
-Create a banking system using an abstract class and inheritance.
+Write a java program to solve the banking problem. Create an abstract class Bank that declares account
+name and balance as state, abstract methods deposit, withdraw and getBalance as behavior. Create a
+class Account that extends the abstract Bank.
 
-#### ✅ Files:
-- `Bank.java`: Abstract class with `accountName`, `balance`, and abstract methods `deposit()`, `withdraw()`, and `getBalance()`.
-- `Account.java`: Implements `Bank`. Handles deposits, withdrawals (with balance checks), and balance retrieval.
-- `test_account.java`: Tests all banking operations.
-- `Bank.txt`: Stores transaction logs in the root directory.
+i. withdraw(), withdraws money from an Account. Ensure that the withdrawal method does not
+exceed the Account’s balance. If it does, the balance should be left unchanged and the method
+should print a message indicating **“Withdrawal amount exceeded account balance”**.  
+ii. deposit() adds only valid (amount greater than 0) amount to the balance.  
+iii. getBalance() returns the current balance.  
+iv. All bank transactions should be recorded in a file named **Bank.txt** located in the root directory.  
 
-#### 💡 Features:
-- Prevents overdraft withdrawals.
-- Accepts only positive deposit amounts.
-- Logs all transactions to `Bank.txt`.
+Create another class AccountTest to test the withdraw, deposit and getBalance methods.  
 
 ---
 
 ### 🔹 Question 2: Streams & Exceptions [25 Marks]
 
-#### a. Stream Filtering [10 Marks]
-- `DivisibleByFive.java`: Filters and prints numbers divisible by 5 from a list using Java Streams.
+a. Write a java program using a stream to filter the numbers that are divisible by 5 from the
+following ArrayList and print them out. [10 Marks]  
+`(1, 4, 5, 20, 30, 6)`  
 
-#### b. Custom Exception [15 Marks]
-- `ExceptionHandling.java`: Defines and handles a user-defined exception with a meaningful message.
-  
+b. Write a java program creating your own custom exception. Throw and catch the exception
+displaying a proper message to the user. [15 Marks]  
+
 ---
 
-## 🚀 How to Run
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Macoolphan-19/OOP-Practical-Assignment-1.git
-   ## Authors
-Tinashe Brendon Tigere and Kevin Mutenga
+## 📂 Project Structure
